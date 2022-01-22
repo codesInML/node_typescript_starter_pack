@@ -4,9 +4,9 @@
   "description": "start file for node and typescript",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production node server.js",
+    "start": "node server.js",
     "dev:tsc": "tsc --watch -p .",
-    "dev:serve": "NODE_ENV=development nodemon -e js -w dist dist/server.js",
+    "dev:serve": "nodemon -e js -w dist dist/server.js",
     "dev": "nodemon . --trace-warnings --inspect",
     "test": "jest"
   },
